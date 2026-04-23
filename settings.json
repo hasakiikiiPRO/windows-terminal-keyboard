@@ -102,7 +102,7 @@
         },
         {
             "command": "closePane",
-            "keys": "alt+w"
+            "keys": "alt+q"
         },
         {
             "command": 
@@ -141,17 +141,35 @@
                 "direction": "right"
             },
             "keys": "alt+o"
+        },
+        {
+            "command": 
+            {
+                "action": "globalSummon",
+                "desktop": "toCurrent",
+                "dropdownDuration": 200,
+                "monitor": "toCurrent",
+                "name": "_quake",
+                "toggleVisibility": true
+            },
+            "keys": "alt+h"
         }
     ],
+    "alwaysOnTop": false,
+    "alwaysShowTabs": true,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "experimental.rendering.forceFullRepaint": false,
+    "experimental.rendering.software": true,
     "launchMode": "default",
     "profiles": 
     {
         "defaults": 
         {
-            "colorScheme": "Ubuntu"
+            "colorScheme": "Ubuntu",
+            "historySize": 20000,
+            "snapOnInput": false
         },
         "list": 
         [
@@ -467,5 +485,6 @@
             "yellow": "#808000"
         }
     ],
-    "theme": "dark"
+    "theme": "dark",
+    "useAcrylicInTabRow": true
 }
