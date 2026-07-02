@@ -31,7 +31,7 @@
             "command": 
             {
                 "action": "splitPane",
-                "split": "right"
+                "split": "auto"
             },
             "keys": "alt+p"
         },
@@ -141,6 +141,14 @@
                 "direction": "right"
             },
             "keys": "alt+o"
+        },
+        {
+            "command": { "action": "moveFocus", "direction": "up" },
+            "keys": "alt+i"
+        },
+        {
+            "command": { "action": "moveFocus", "direction": "down" },
+            "keys": "alt+k"
         },
         {
             "command": 
